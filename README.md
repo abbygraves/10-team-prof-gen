@@ -5,9 +5,7 @@
 ## **Description**
 A command-line application that prompts the user to input information about a series of employees on a software engineering team. When the user is finished then an HTML webpage, displaying the summaries of each individual, will be dynamically generated.
 
-<br/>
-
-## **Demo**
+### **Demo**
 [Click here to View Demo]()
 
 
