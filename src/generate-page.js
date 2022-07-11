@@ -1,4 +1,6 @@
-let teamArray = [];
+const fs = require("fs");
+
+let teamCards = [];
 
 
 generateMgmr = team => {
@@ -22,23 +24,23 @@ generateTeam = team => {
   for (let i = 0; i < team.length; i++)
     switch (team[i].role) {
       case "Manager":
-        teamArray.push(generateMgmr(team[i]));
+        teamCards.push(generateMgmr(team[i]));
         break;
 
       case "Engineer":
-        teamArray.push(generateEngineer(team[i]));
+        teamCards.push(generateEngineer(team[i]));
         break;
 
       case "Intern":
-        teamArray.push(generateIntern(team[i]));
+        teamCards.push(generateIntern(team[i]));
         break;
 
       default:
         break
     }
-    console.log(teamArray)
-    teamArray = teamArray.join(``);
-    return teamArray;
+    console.log(teamCards)
+    teamCards = teamCards.join(``);
+    return teamCards;
 };
 
 
@@ -48,4 +50,4 @@ module.exports = input => {
 }
 
 
-$(generateTeam(input))
+// $(generateTeam(input))
