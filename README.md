@@ -46,6 +46,7 @@ A command-line application that prompts the user to input information about a se
 <br/>
 
 ## **License**
+```
 MIT License
 
 
@@ -68,5 +69,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
 
-[https://choosealicense.com/licenses/mit](https://choosealicense.com/licenses/mit)
+&nbsp;&nbsp;&nbsp; [https://choosealicense.com/licenses/mit](https://choosealicense.com/licenses/mit)
