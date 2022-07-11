@@ -36,7 +36,11 @@ const displayMenu = () => {
         promptIntern();
         break;
       case "Finished Building Team":
-        finishedTeam();
+        console.log(teamArray);
+        htmlContent = generatePage(teamArray);
+        console.log(htmlContent);
+
+        finishedTeam(htmlContent);
         break;
     }
   })
@@ -147,10 +151,26 @@ const promptIntern = () => {
 
 // TODO
 // METHOD TO CREATE TEAM AND GENERATE HTML
-const finishedTeam = () => {
-  return inquirer.prompt([
+// const finishedTeam = () => {
+//   return inquirer.prompt(
+//     console.log("Your webpage has been generated!")
 
-  ])
+//   )
+// };
+
+
+
+const finishedTeam = data => {
+  fs.writeFile("./dist/index.html", data, err => {
+    if (err) {
+      console.error(err);
+      return;
+    } 
+    else {
+      // console.log("%c Your webpage has been generated!", 'background: pink; font-size: 22px; font-weight')
+      console.white.bgPink.shadow.log("Your webpage has been generated! Go to the dist folder to view your HTML file.");
+    };
+  });
 };
 
 
