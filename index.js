@@ -157,3 +157,9 @@ const finishedTeam = () => {
 
 // CALL MANAGER METHOD TO START THE QUESTIONS WHEN APP IS INVOKED
 promptManager();
+
+
+
+
+
+// INCOMPLETE CODE
