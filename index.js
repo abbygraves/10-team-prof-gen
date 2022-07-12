@@ -8,13 +8,6 @@ const Engineer = require("./lib/Engineer");
 const generatePage = require("./src/generate-page");
 const teamArray = [];
 
-//TODO  
-//FIXME
-//REVIEW 
-// QUESTION
-// DONE
-// IMPORTANT  
-
 
 
 // DONE
@@ -36,9 +29,9 @@ const displayMenu = () => {
         promptIntern();
         break;
       case "Finished Building Team":
-        console.log(teamArray);
+        // console.log(teamArray);
         htmlContent = generatePage(teamArray);
-        console.log(htmlContent);
+        // console.log(htmlContent);
 
         finishedTeam(htmlContent);
         break;
@@ -149,26 +142,16 @@ const promptIntern = () => {
 
 
 
-// TODO
-// METHOD TO CREATE TEAM AND GENERATE HTML
-// const finishedTeam = () => {
-//   return inquirer.prompt(
-//     console.log("Your webpage has been generated!")
-
-//   )
-// };
-
-
-
+// DONE
 const finishedTeam = data => {
   fs.writeFile("./dist/index.html", data, err => {
     if (err) {
-      console.error(err);
+      console.log(err);
       return;
     } 
     else {
       // console.log("%c Your webpage has been generated!", 'background: pink; font-size: 22px; font-weight')
-      console.white.bgPink.shadow.log("Your webpage has been generated! Go to the dist folder to view your HTML file.");
+      console.log("Your webpage has been generated! Go to the dist folder to view your HTML file.");
     };
   });
 };
@@ -182,4 +165,4 @@ promptManager();
 
 
 
-// INCOMPLETE CODE
+// CODE COMPLETE
