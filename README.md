@@ -8,9 +8,8 @@ A command-line application that prompts the user to input information about a se
 ### **Demo**
 ### [Click here to View Demo](https://youtu.be/jSBkE5Lrsf4)
 
-<img align="center" src="./assets/images/team-prof-gen-screenshot.png"  style="margin-top: 15px"/>
+<img src="./assets/images/team-prof-gen-screenshot.png"/>
 
-<br/>
 <br/>
 
 ## **Build With:**
