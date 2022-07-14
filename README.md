@@ -1,6 +1,6 @@
 # Team Profile Generator
 
-## ![License: MIT](https://img.shields.io/badge/License-MIT-66ffff.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-e74856.svg)
 
 ## **Description**
 A command-line application that prompts the user to input information about a series of employees on a software engineering team. When the user is finished then an HTML webpage, displaying the summaries of each individual, will be dynamically generated.
