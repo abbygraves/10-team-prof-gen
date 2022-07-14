@@ -6,9 +6,11 @@
 A command-line application that prompts the user to input information about a series of employees on a software engineering team. When the user is finished then an HTML webpage, displaying the summaries of each individual, will be dynamically generated.
 
 ### **Demo**
-[Click here to View Demo]()
+### [Click here to View Demo](https://youtu.be/jSBkE5Lrsf4)
 
+<img align="center" src="./assets/images/team-prof-gen-screenshot.png"  style="margin-top: 15px"/>
 
+<br/>
 <br/>
 
 ## **Build With:**
