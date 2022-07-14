@@ -40,7 +40,7 @@ A command-line application that prompts the user to input information about a se
 <br/>
 
 ## **Got Questions?**
-  Feel free to reach out with questions or comments regarding Professional README Generator!
+  Feel free to reach out with questions or comments regarding Team Profile Generator!
   
   [My GitHub Profile](https://github.com/abbygraves)&nbsp; :octocat: &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp; abbygraves14@gmail.com&nbsp; :incoming_envelope:
 
