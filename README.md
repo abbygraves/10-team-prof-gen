@@ -12,7 +12,7 @@ A command-line application that prompts the user to input information about a se
 
 <br/>
 
-## **Build With:**
+## **Built With:**
   + JavaScript
   + Node.js 
   + Inquirer package
